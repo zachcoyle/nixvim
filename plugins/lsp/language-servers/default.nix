@@ -457,6 +457,11 @@ with lib; let
       serverName = "rnix";
     }
     {
+      name = "ruby_ls";
+      description = "Enable ruby-lsp, for Ruby";
+      package = pkgs.ruby-lsp;
+    }
+    {
       name = "ruff-lsp";
       description = "Enable ruff-lsp, for Python.";
       package = pkgs.python3Packages.ruff-lsp;
